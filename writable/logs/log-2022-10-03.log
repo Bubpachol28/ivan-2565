@@ -1,0 +1,1731 @@
+CRITICAL - 2022-10-03 11:18:59 --> Undefined variable $Q_F_Name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components_emp\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(140): view('admin/setting')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->setting()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-03 11:19:05 --> Undefined variable $Q_F_Name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components_emp\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(140): view('admin/setting')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->setting()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-03 11:20:06 --> Undefined variable $Q_F_Name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components_emp\navbar.php(9): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 9)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(13): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(139): view('admin/setting')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->setting()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-03 11:22:30 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(139): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 11:23:15 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(139): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-10-03 11:41:55 --> Error connecting to the database: Unknown database 'adminivan_ivan'
+CRITICAL - 2022-10-03 11:41:55 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminivan_ivan'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(35): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(137): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->setting()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-03 11:44:32 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 11:44:33 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 11:44:52 --> Cannot use App\Models\SettingModel as SettingModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 11:44:52 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 11:44:53 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 11:44:53 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 11:44:54 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 11:46:30 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:46:31 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:48:06 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:07 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:07 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:07 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:07 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:08 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:08 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:08 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:08 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:08 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:08 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:09 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:09 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:09 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:09 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:09 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:09 --> Class "App\Models\SettingModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:48:19 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:19 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:20 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:20 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:20 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:20 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:20 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:21 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:21 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:21 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:21 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:22 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:22 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:32 --> syntax error, unexpected token "=", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:48:32 --> syntax error, unexpected token "=", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:48:33 --> syntax error, unexpected token "=", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:48:33 --> syntax error, unexpected token "=", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:48:33 --> syntax error, unexpected token "=", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:48:33 --> syntax error, unexpected token "=", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:48:33 --> syntax error, unexpected token "=", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:48:34 --> syntax error, unexpected token "=", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:48:36 --> syntax error, unexpected token "=", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:48:36 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:36 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:37 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:48:37 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:02 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:02 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:03 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:03 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:03 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:03 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:04 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:04 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:04 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:05 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:05 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:06 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:06 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:06 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:07 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:07 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:07 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:07 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:08 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:31 --> syntax error, unexpected variable "$this"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:49:32 --> syntax error, unexpected variable "$this"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:49:32 --> syntax error, unexpected variable "$this"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:49:32 --> syntax error, unexpected variable "$this"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:49:32 --> syntax error, unexpected variable "$this"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:49:33 --> syntax error, unexpected variable "$this"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:49:40 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:40 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:41 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:41 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:41 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:41 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:57 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:49:58 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:50:28 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:50:29 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:51:02 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:51:02 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:51:03 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:51:03 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:51:04 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:51:04 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:51:29 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:51:29 --> Undefined array key "otp_name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:54:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Res()
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(21): App\Models\SettingModel->get_setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:54:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Res()
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(21): App\Models\SettingModel->get_setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:54:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Res()
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(21): App\Models\SettingModel->get_setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:54:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Res()
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(21): App\Models\SettingModel->get_setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:54:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::Res()
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(21): App\Models\SettingModel->get_setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:54:21 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:54:21 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:55:06 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:55:06 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:55:06 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:55:07 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:55:07 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:55:07 --> Call to a member function result() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:55:32 --> Call to a member function row() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:55:32 --> Call to a member function row() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:55:32 --> Call to a member function row() on array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:56:13 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:56:13 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:56:14 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:56:14 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:56:14 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:56:14 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:56:14 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:56:15 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:56:17 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Sett...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(20): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Sett...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 11:56:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:56:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:56:18 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:56:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:56:19 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::row()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:56:24 --> Undefined property: mysqli::$otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:56:25 --> Undefined property: mysqli::$otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:56:25 --> Undefined property: mysqli::$otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:56:25 --> Undefined property: mysqli::$otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:56:25 --> Undefined property: mysqli::$otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:56:34 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:56:35 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:56:35 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:56:35 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:56:35 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:58:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(21): App\Models\SettingModel->get_setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:58:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(21): App\Models\SettingModel->get_setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:58:57 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::result()
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(21): App\Models\SettingModel->get_setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:59:36 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(22): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 11:59:55 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:59:56 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:59:56 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:59:56 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:59:56 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:59:56 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 11:59:57 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:00:21 --> Undefined variable $otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:00:21 --> Undefined variable $otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:00:22 --> Undefined variable $otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:00:22 --> Undefined variable $otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:00:22 --> Undefined variable $otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:00:23 --> Undefined variable $otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:00:23 --> Undefined variable $otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:00:23 --> Undefined variable $otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:00:23 --> Undefined variable $otp_name
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:00:33 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): view('admin/setting', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 12:01:22 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:01:22 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:01:22 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:01:53 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:02:10 --> Undefined variable $setting
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 12:02:11 --> Undefined variable $setting
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 12:02:11 --> Undefined variable $setting
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 12:02:11 --> Undefined variable $setting
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 12:02:11 --> Undefined variable $setting
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 12:02:11 --> Undefined variable $setting
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 12:02:12 --> Undefined variable $setting
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 12:02:18 --> Undefined variable $setting
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 12:02:18 --> Undefined variable $setting
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 12:02:18 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:02:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:02:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:02:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:02:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:02:19 --> Cannot use object of type stdClass as array
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-03 12:02:57 --> Undefined variable $otp_sender
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(24): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:54:46 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:51 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:52 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:52 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:52 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:53 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:53 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:53 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:53 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:53 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:53 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:56:56 --> Undefined property: stdClass::$data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(48): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 12:57:45 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 12:57:46 --> syntax error, unexpected token ";", expecting ")"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-03 14:08:14 --> Undefined variable $session
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->save()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 14:08:14 --> Undefined variable $session
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->save()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 14:08:14 --> Undefined variable $session
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->save()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 14:08:15 --> Undefined variable $session
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->save()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 14:08:15 --> Undefined variable $session
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->save()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 14:09:01 --> Undefined variable $ses_userid
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(53): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->save()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-03 14:09:02 --> Undefined variable $ses_userid
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(53): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->save()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-03 14:09:02 --> Undefined variable $ses_userid
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(53): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->save()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-03 14:09:02 --> Undefined variable $ses_userid
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(53): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->save()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-10-03 14:10:54 --> Undefined variable $note
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(31): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 14:10:55 --> Undefined variable $note
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(31): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 14:10:55 --> Undefined variable $note
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\setting.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/setting', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(31): view('admin/setting', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-03 14:21:45 --> syntax error, unexpected token ","
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+ERROR - 2022-10-03 14:22:42 --> Unknown column 'setting.id' in 'where clause'
+ERROR - 2022-10-03 14:22:51 --> Unknown column 'setting.id' in 'where clause'
+ERROR - 2022-10-03 14:22:58 --> Unknown column 'setting.id' in 'where clause'
+ERROR - 2022-10-03 14:23:12 --> Unknown column 'setting.id' in 'where clause'
+ERROR - 2022-10-03 14:23:33 --> Unknown column 'setting.id' in 'where clause'
+ERROR - 2022-10-03 14:23:48 --> Unknown column 'setting.id' in 'where clause'
+ERROR - 2022-10-03 14:23:51 --> Unknown column 'setting.id' in 'where clause'
+ERROR - 2022-10-03 14:24:13 --> Unknown column 'setting.id' in 'where clause'
+CRITICAL - 2022-10-03 15:35:01 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 15:35:04 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 15:35:07 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 15:35:14 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 15:35:19 --> Uncaught ErrorException: Undefined variable $Q_Pos_ID in C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php:153
+Stack trace:
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\errors\html\error_404.php(9): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(234): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(237): CodeIgniter\Debug\Exceptions->CodeIgniter\Debug\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Debug\Exceptions.php(121): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Exceptions\PageNotFoundException), 404)
+#5 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Exceptions\PageNotFoundException))
+#6 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-03 16:06:10 --> Undefined property: stdClass::$session_timeout
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 715)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->auth()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 16:07:05 --> Undefined property: stdClass::$session_timeout
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 715)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->auth()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 16:07:18 --> Undefined property: stdClass::$session_timeout
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(715): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 715)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->auth()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 16:07:57 --> Undefined property: stdClass::$sesion_timeout
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-03 16:08:17 --> Undefined property: stdClass::$sesion_timeout
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SettingController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SettingController->setting()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SettingController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

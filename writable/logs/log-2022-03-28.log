@@ -1,0 +1,52 @@
+CRITICAL - 2022-03-28 11:29:34 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(321): view('register')
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->register()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-28 11:31:23 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(321): view('register')
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->register()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-28 11:33:52 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(321): view('register')
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->register()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-28 11:35:26 --> Object of class CodeIgniter\Validation\Validation could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('register', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(321): view('register')
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->register()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-03-28 12:30:41 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\ReservationController.php(77): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 77)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\ReservationController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}

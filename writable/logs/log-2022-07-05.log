@@ -1,0 +1,846 @@
+CRITICAL - 2022-07-05 13:03:37 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 13:03:45 --> syntax error, unexpected token "}", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:17:35 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:17:35 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:13 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:13 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:13 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:13 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:14 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:14 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:15 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:15 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:15 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:15 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:16 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:16 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:16 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:16 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:16 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:16 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:16 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:16 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:16 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:16 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:17 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:17 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:17 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:17 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:17 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:17 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:17 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:18 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:18 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:18 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:18 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:18 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:18 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:18 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:18 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:18 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:18 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:18 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:18 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:19 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:19 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:19 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:19 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:19 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:19 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:19 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:19 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:19 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:19 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:37 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:37 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-07-05 14:18:38 --> Unknown column 'reservation.Status' in 'where clause'
+CRITICAL - 2022-07-05 14:18:38 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(68): App\Models\TicketModel->getTicket_notCheckPayment('7')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:31:14 --> Undefined variable $p_status
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:31:25 --> syntax error, unexpected token "else", expecting "function" or "const"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:31:25 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:31:26 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:31:26 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:31:26 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:31:26 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:31:26 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:31:28 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:29 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:30 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:36 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:48 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:49 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:49 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:49 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:50 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:50 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:50 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:50 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:50 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:50 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:51 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:51 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:51 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:51 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:51 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:51 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:52 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:52 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:52 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:52 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:53 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:53 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:53 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:53 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:53 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:54 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:54 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:54 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:54 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:54 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:54 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:55 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:55 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:55 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:55 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:55 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:55 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:56 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:31:56 --> syntax error, unexpected token "else"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-07-05 14:32:31 --> Undefined variable $p_status
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:32:31 --> Undefined variable $p_status
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(96): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 96)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:39:10 --> Call to undefined method App\Models\TicketModel::getReservationAfterConfirm
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(67): CodeIgniter\Model->__call('getReservationA...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:39:13 --> Call to undefined method App\Models\TicketModel::getReservationAfterConfirm
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(67): CodeIgniter\Model->__call('getReservationA...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:39:13 --> Call to undefined method App\Models\TicketModel::getReservationAfterConfirm
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(67): CodeIgniter\Model->__call('getReservationA...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:39:13 --> Call to undefined method App\Models\TicketModel::getReservationAfterConfirm
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(67): CodeIgniter\Model->__call('getReservationA...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:39:14 --> Call to undefined method App\Models\TicketModel::getReservationAfterConfirm
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(67): CodeIgniter\Model->__call('getReservationA...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:39:14 --> Call to undefined method App\Models\TicketModel::getReservationAfterConfirm
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(67): CodeIgniter\Model->__call('getReservationA...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:39:14 --> Call to undefined method App\Models\TicketModel::getReservationAfterConfirm
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(67): CodeIgniter\Model->__call('getReservationA...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:39:14 --> Call to undefined method App\Models\TicketModel::getReservationAfterConfirm
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(67): CodeIgniter\Model->__call('getReservationA...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:39:19 --> Call to undefined method App\Models\TicketModel::getReservationAfterConfirm
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(67): CodeIgniter\Model->__call('getReservationA...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:39:20 --> Call to undefined method App\Models\TicketModel::getReservationAfterConfirm
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(67): CodeIgniter\Model->__call('getReservationA...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->connect_checking()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:49:43 --> syntax error, unexpected identifier "swel_title", expecting ")"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 14:49:44 --> syntax error, unexpected identifier "swel_title", expecting ")"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/TicketControll...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/TicketControll...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-05 15:02:13 --> Undefined variable $Station_Start
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\confirm_reservation.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('confirm_reserva...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\ReservationController.php(112): view('confirm_reserva...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\ReservationController->confirm_reservation()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-07-05 15:20:47 --> Error connecting to the database: Unknown database 'usr6242590_ivan'
+CRITICAL - 2022-07-05 15:20:47 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'usr6242590_ivan'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(36): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\ReservationController.php(234): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\ReservationController->check_reservation()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-07-05 15:21:05 --> Error connecting to the database: Unknown database 'usr6242590_ivan'
+CRITICAL - 2022-07-05 15:21:05 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'usr6242590_ivan'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(210): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\BaseModel.php(622): CodeIgniter\Model->doFirst()
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(36): CodeIgniter\BaseModel->first()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PaymentController.php(22): require_once('C:\\xampp\\htdocs...')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PaymentController->payment()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-07-05 15:21:31 --> Error connecting to the database: Unknown database 'usr6242590_ivan'
+CRITICAL - 2022-07-05 15:21:31 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'usr6242590_ivan'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Models\StationModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(19): App\Models\StationModel->getStation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}

@@ -1,0 +1,52 @@
+ERROR - 2022-10-28 12:55:16 --> Error connecting to the database: Unknown database 'adminivan_ivan'
+CRITICAL - 2022-10-28 12:55:16 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'adminivan_ivan'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Models\StationModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(20): App\Models\StationModel->getStation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-10-28 18:09:27 --> Column 'Bank' cannot be null
+CRITICAL - 2022-10-28 18:18:22 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-28 18:18:23 --> Cannot use isset() on the result of an expression (you can use "null !== expression" instead)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-10-28 18:18:53 --> Undefined array key "bank_id"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\payment.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('payment', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PaymentController.php(71): view('payment', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PaymentController->payment()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-28 18:19:46 --> Undefined array key "bank_id"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\payment.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('payment', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PaymentController.php(71): view('payment', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PaymentController->payment()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-28 18:19:52 --> Undefined array key "bank_id"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\payment.php(104): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 104)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('payment', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PaymentController.php(71): view('payment', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PaymentController->payment()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PaymentController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

@@ -1,0 +1,511 @@
+CRITICAL - 2022-06-07 18:36:55 --> unlink(C:\xampp\htdocs\Big_Project_Code4\writable\session/ci_sessionb6i7pjjjrl79c884tk8r2jef4skfd0nf): No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'unlink(C:\\xampp...', 'C:\\xampp\\htdocs...', 247)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Session\Handlers\FileHandler.php(247): unlink('C:\\xampp\\htdocs...')
+#2 [internal function]: CodeIgniter\Session\Handlers\FileHandler->destroy('b6i7pjjjrl79c88...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Session\Session.php(423): session_destroy()
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(346): CodeIgniter\Session\Session->destroy()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 18:57:10 --> Undefined array key "Station_Naeme"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\his_reservation.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('his_reservation', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(141): view('his_reservation', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->his_reservation()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 18:57:11 --> Undefined array key "Station_Naeme"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\his_reservation.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('his_reservation', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(141): view('his_reservation', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->his_reservation()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 18:57:13 --> Undefined array key "Station_Naeme"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\his_reservation.php(57): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 57)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('his_reservation', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(141): view('his_reservation', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->his_reservation()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:23:29 --> syntax error, unexpected identifier "view"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/AdminControlle...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/AdminControlle...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:23:29 --> syntax error, unexpected identifier "view"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/AdminControlle...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/AdminControlle...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:25:35 --> Undefined array key "User_ID"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:25:37 --> Undefined array key "User_ID"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:25:37 --> Undefined array key "User_ID"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:25:56 --> Undefined array key "F_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:25:56 --> Undefined array key "F_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:25:57 --> Undefined array key "F_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:25:57 --> Undefined array key "F_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:25:57 --> Undefined array key "F_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(80): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 80)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:28:20 --> Undefined variable $u_user_id
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:28:22 --> Undefined variable $u_user_id
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:14 --> Undefined variable $data_
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:15 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:15 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:15 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:16 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:16 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:16 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:17 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:19 --> Too few arguments to function App\Controllers\AdminController::edit_officer(), 0 passed in C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php on line 825 and exactly 1 expected
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-07 19:29:22 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(82): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:49 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:50 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:50 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:51 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:51 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:51 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:51 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:51 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:29:56 --> Undefined variable $data_sending
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:36:56 --> Undefined variable $userposition_list
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:36:56 --> Undefined variable $userposition_list
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:36:56 --> Undefined variable $userposition_list
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:36:56 --> Undefined variable $userposition_list
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:36:57 --> Undefined variable $userposition_list
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:36:57 --> Undefined variable $userposition_list
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:36:57 --> Undefined variable $userposition_list
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(83): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 19:38:48 --> Undefined array key "Position"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:38:49 --> Undefined array key "Position"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:38:49 --> Undefined array key "Position"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:38:49 --> Undefined array key "Position"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(88): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 88)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-07 19:42:47 --> Undefined variable $u_fname
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\edit_officer.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/edit_offi...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(90): view('admin/edit_offi...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->edit_officer('1000')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 23:17:44 --> Undefined array key "Bank_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\check_payment.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/check_...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(205): view('employee/check_...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->check_payment()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 23:17:44 --> Undefined array key "Bank_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\check_payment.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/check_...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(205): view('employee/check_...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->check_payment()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 23:17:58 --> Undefined array key "bank_name_th"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\check_payment.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/check_...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(205): view('employee/check_...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->check_payment()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 23:17:58 --> Undefined array key "bank_name_th"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\check_payment.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/check_...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(205): view('employee/check_...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->check_payment()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-07 23:17:59 --> Undefined array key "bank_name_th"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\check_payment.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/check_...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(205): view('employee/check_...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->check_payment()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

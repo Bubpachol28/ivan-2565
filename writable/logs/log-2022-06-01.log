@@ -1,0 +1,55 @@
+CRITICAL - 2022-06-01 14:41:53 --> Undefined array key "Around_N"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\manage_traffic.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(146): view('employee/manage...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_traffic()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 14:41:54 --> Undefined array key "Around_N"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\manage_traffic.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(146): view('employee/manage...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_traffic()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 14:42:25 --> Undefined array key "Station_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\manage_traffic.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(146): view('employee/manage...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_traffic()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 14:42:26 --> Undefined array key "Station_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\manage_traffic.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(146): view('employee/manage...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_traffic()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-01 14:42:27 --> Undefined array key "Station_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\manage_traffic.php(71): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 71)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(146): view('employee/manage...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_traffic()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

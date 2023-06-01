@@ -1,0 +1,401 @@
+CRITICAL - 2022-06-08 00:11:58 --> Undefined variable $user_id
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(555): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 555)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->update_user_byId()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 00:12:30 --> Undefined variable $user_id
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(554): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 554)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->update_user_byId()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 00:22:11 --> Undefined array key "User_ID"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\manage_traffic.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(147): view('employee/manage...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_traffic()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:22:12 --> Undefined array key "User_ID"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\manage_traffic.php(93): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 93)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(147): view('employee/manage...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_traffic()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:31:22 --> Undefined variable $list_van
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(50): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:31:23 --> Undefined variable $list_van
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(50): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:31:23 --> Undefined variable $list_van
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(50): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:31:23 --> Undefined variable $list_van
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(50): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:31:24 --> Undefined variable $list_van
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 38)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(50): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:36:29 --> Cannot use App\Models\TicketPriceModel as TicketPriceModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 00:36:29 --> Cannot use App\Models\TicketPriceModel as TicketPriceModel because the name is already in use
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 00:36:30 --> Undefined variable $list_Station
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(53): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:36:30 --> Undefined variable $list_Station
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(53): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:36:30 --> Undefined variable $list_Station
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(53): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:36:31 --> Undefined variable $list_Station
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(53): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:36:31 --> Undefined variable $list_Station
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(53): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:36:31 --> Undefined variable $list_Station
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\add_driving.php(76): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 76)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(53): view('employee/add_dr...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:37:26 --> Class "App\Controllers\StationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 00:37:27 --> Class "App\Controllers\StationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-06-08 00:41:35 --> Invalid file: employee/add-driving.php
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add-dr...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add-dr...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(117): view('employee/add-dr...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_dock_car()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 00:41:49 --> Invalid file: employee/add-driving.php
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add-dr...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add-dr...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(117): view('employee/add-dr...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_dock_car()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 00:41:50 --> Invalid file: employee/add-driving.php
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('employee/add-dr...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add-dr...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(117): view('employee/add-dr...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_dock_car()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 00:51:46 --> Undefined variable $list_van
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\edit_driving.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/edit_d...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(199): view('employee/edit_d...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->edit_driving('11')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 00:58:41 --> Undefined variable $list_van
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\edit_driving.php(48): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 48)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/edit_d...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(219): view('employee/edit_d...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->edit_driving('20')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 01:05:46 --> Unmatched '}'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/edit_d...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(223): view('employee/edit_d...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->edit_driving('11')
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 01:10:32 --> syntax error, unexpected token "public", expecting end of file
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Dock...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(223): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Dock...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->edit_driving('14')
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 01:12:00 --> Undefined array key "Van_Out"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\ReservationController.php(60): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 60)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\ReservationController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 01:16:11 --> Undefined variable $d_van_id
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\edit_driving.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/edit_d...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(241): view('employee/edit_d...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->edit_driving('12')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 01:16:12 --> Undefined variable $d_van_id
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\edit_driving.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/edit_d...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(241): view('employee/edit_d...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->edit_driving('12')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 01:16:12 --> Undefined variable $d_van_id
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\edit_driving.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/edit_d...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(241): view('employee/edit_d...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->edit_driving('12')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 01:16:21 --> Undefined array key "User_ID"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(227): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 227)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->edit_driving('12')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 01:17:52 --> Undefined variable $d_a
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\employee\edit_driving.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 54)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/edit_d...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(241): view('employee/edit_d...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->edit_driving('141')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-06-08 01:18:22 --> require is not a valid rule.
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('require')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('dock_car_id', 'dock_car_id', '', Array, Array)
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(166): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->update_dock_car()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-08 01:19:00 --> require is not a valid rule.
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('require')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('dock_car_id', 'dock_car_id', '', Array, Array)
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(166): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->update_dock_car()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-08 01:19:02 --> require is not a valid rule.
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('require')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('dock_car_id', 'dock_car_id', '', Array, Array)
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(166): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->update_dock_car()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-08 01:19:02 --> require is not a valid rule.
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Validation\Validation.php(300): CodeIgniter\Validation\Exceptions\ValidationException::forRuleNotFound('require')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('dock_car_id', 'dock_car_id', '', Array, Array)
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(166): CodeIgniter\Controller->validate(Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->update_dock_car()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-06-08 01:37:55 --> Unmatched '}'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/add_dr...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\DockCarController.php(56): view('employee/add_dr...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\DockCarController->add_driving()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DockCarController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-06-08 01:56:11 --> Undefined variable $van_id
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\VanController.php(153): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 153)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\VanController->edit_van_form()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\VanController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 01:56:26 --> Cannot use [] for reading
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-06-08 02:04:27 --> Undefined variable $model_DockCar
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->manage_allUsers()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 02:04:27 --> Undefined variable $model_DockCar
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->manage_allUsers()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 02:06:03 --> Call to undefined method App\Models\UsersModel::finedAll
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(22): CodeIgniter\Model->__call('finedAll', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->manage_allUsers()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 02:06:08 --> Call to undefined method App\Models\UsersModel::finedAll
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(22): CodeIgniter\Model->__call('finedAll', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->manage_allUsers()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 02:06:09 --> Call to undefined method App\Models\UsersModel::finedAll
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(22): CodeIgniter\Model->__call('finedAll', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->manage_allUsers()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-06-08 02:06:10 --> Call to undefined method App\Models\UsersModel::finedAll
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\AdminController.php(22): CodeIgniter\Model->__call('finedAll', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\AdminController->manage_allUsers()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AdminController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

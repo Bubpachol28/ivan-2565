@@ -1,0 +1,1659 @@
+CRITICAL - 2022-05-27 01:38:05 --> Unclosed '{' on line 59
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(27): view('index', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 01:38:06 --> Unclosed '{' on line 59
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(27): view('index', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-05-27 01:42:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 3
+CRITICAL - 2022-05-27 01:42:35 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 3
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\NotificationModel.php(44): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(57): App\Models\NotificationModel->CountNotificationOfUser()
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(26): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+ERROR - 2022-05-27 01:42:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 3
+CRITICAL - 2022-05-27 01:42:37 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near ''' at line 3
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT COUNT(*)...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT COUNT(*)...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT COUNT(*)...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1539): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\NotificationModel.php(44): CodeIgniter\Database\BaseBuilder->countAllResults()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(57): App\Models\NotificationModel->CountNotificationOfUser()
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(26): require_once('C:\\xampp\\htdocs...')
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#11 {main}
+CRITICAL - 2022-05-27 02:35:48 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(3): session_start()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(78): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:35:49 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(3): session_start()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(78): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:35:50 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(3): session_start()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(78): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:35:50 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(3): session_start()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(78): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:35:51 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(3): session_start()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(78): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:38:34 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(3): session_start()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(78): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:38:35 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(3): session_start()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(78): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:38:35 --> session_start(): Ignoring session_start() because a session is already active
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'session_start()...', 'C:\\xampp\\htdocs...', 3)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\components\user_connect.php(3): session_start()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(78): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:53:59 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(233): view('employee/manage...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_complaint()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:54:00 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(233): view('employee/manage...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_complaint()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:54:00 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(233): view('employee/manage...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_complaint()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 02:54:00 --> syntax error, unexpected token ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('employee/manage...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\EmployeeController.php(233): view('employee/manage...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\EmployeeController->manage_complaint()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\EmployeeController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 03:46:41 --> Frame not found in cellmap
+#0 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php(43): Dompdf\Cellmap->get_frame_position(Object(Dompdf\FrameDecorator\TableCell))
+#1 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#2 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Inline.php(159): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#3 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Inline->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#4 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php(95): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#5 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#6 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(57): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#7 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#8 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(48): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#9 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#10 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Table.php(418): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#12 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#13 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#14 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#15 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Block->reflow(NULL)
+#16 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Page.php(143): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#17 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Page->reflow(NULL)
+#18 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\Dompdf.php(820): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#19 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(120): Dompdf\Dompdf->render()
+#20 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#21 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#22 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#23 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#24 {main}
+CRITICAL - 2022-05-27 03:46:43 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 268439552 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-27 03:46:46 --> Frame not found in cellmap
+#0 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php(43): Dompdf\Cellmap->get_frame_position(Object(Dompdf\FrameDecorator\TableCell))
+#1 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#2 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Inline.php(159): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#3 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Inline->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#4 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php(95): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#5 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#6 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(57): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#7 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#8 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(48): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#9 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#10 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Table.php(418): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#12 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#13 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#14 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#15 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Block->reflow(NULL)
+#16 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Page.php(143): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#17 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Page->reflow(NULL)
+#18 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\Dompdf.php(820): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#19 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(120): Dompdf\Dompdf->render()
+#20 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#21 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#22 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#23 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#24 {main}
+CRITICAL - 2022-05-27 03:46:49 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 268439552 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-27 03:47:28 --> Frame not found in cellmap
+#0 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php(43): Dompdf\Cellmap->get_frame_position(Object(Dompdf\FrameDecorator\TableCell))
+#1 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableCell->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#2 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Inline.php(159): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#3 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Inline->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#4 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableCell.php(95): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\TableCell))
+#5 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableCell->reflow(NULL)
+#6 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableRow.php(57): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#7 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableRow->reflow(NULL)
+#8 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\TableRowGroup.php(48): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#9 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\TableRowGroup->reflow(NULL)
+#10 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Table.php(418): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#11 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Table->reflow(Object(Dompdf\FrameDecorator\Block))
+#12 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#13 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Block->reflow(Object(Dompdf\FrameDecorator\Block))
+#14 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Block.php(865): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow(Object(Dompdf\FrameDecorator\Block))
+#15 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Block->reflow(NULL)
+#16 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameReflower\Page.php(143): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#17 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\FrameDecorator\AbstractFrameDecorator.php(891): Dompdf\FrameReflower\Page->reflow(NULL)
+#18 C:\xampp\htdocs\Big_Project_Code4\vendor\dompdf\dompdf\src\Dompdf.php(820): Dompdf\FrameDecorator\AbstractFrameDecorator->reflow()
+#19 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(120): Dompdf\Dompdf->render()
+#20 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#21 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#22 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#23 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#24 {main}
+CRITICAL - 2022-05-27 03:47:31 --> Allowed memory size of 536870912 bytes exhausted (tried to allocate 268439552 bytes)
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2022-05-27 04:01:42 --> Undefined variable $options
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 04:01:44 --> Undefined variable $options
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 04:01:50 --> Undefined variable $options
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(116): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 116)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 09:59:57 --> Undefined variable $list_users
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\manage_allusers.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/manage_al...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(42): view('admin/manage_al...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 09:59:59 --> Undefined variable $list_users
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\manage_allusers.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/manage_al...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(42): view('admin/manage_al...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:01:02 --> Undefined variable $list_users
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\manage_allusers.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/manage_al...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(42): view('admin/manage_al...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:01:02 --> Undefined variable $list_users
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\manage_allusers.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/manage_al...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(42): view('admin/manage_al...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:02:17 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:02:18 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:02:18 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:02:18 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:02:19 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:02:19 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:02:19 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:04:35 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:36 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:43 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:44 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:44 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:44 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:45 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:45 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:49 --> Undefined variable $response
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:50 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:50 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:51 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:51 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:51 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:51 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:51 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:04:52 --> foreach() argument must be of type array|object, string given
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:08:31 --> Call to undefined function {"success":true,"code":200,"message":"OK","data":{"user":{"id":105493,"username":"seabeach","firstname":"SEa","lastname":"Sober","mobile":"66952419415","priority":3,"email":"624259028@webmail.npru.ac.th","last_login":null},"wallet":{"credit":"4.00","balance":"0.00"}}}()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:08:32 --> Call to undefined function {"success":true,"code":200,"message":"OK","data":{"user":{"id":105493,"username":"seabeach","firstname":"SEa","lastname":"Sober","mobile":"66952419415","priority":3,"email":"624259028@webmail.npru.ac.th","last_login":null},"wallet":{"credit":"4.00","balance":"0.00"}}}()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:08:32 --> Call to undefined function {"success":true,"code":200,"message":"OK","data":{"user":{"id":105493,"username":"seabeach","firstname":"SEa","lastname":"Sober","mobile":"66952419415","priority":3,"email":"624259028@webmail.npru.ac.th","last_login":null},"wallet":{"credit":"4.00","balance":"0.00"}}}()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:08:32 --> Call to undefined function {"success":true,"code":200,"message":"OK","data":{"user":{"id":105493,"username":"seabeach","firstname":"SEa","lastname":"Sober","mobile":"66952419415","priority":3,"email":"624259028@webmail.npru.ac.th","last_login":null},"wallet":{"credit":"4.00","balance":"0.00"}}}()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:08:32 --> Call to undefined function {"success":true,"code":200,"message":"OK","data":{"user":{"id":105493,"username":"seabeach","firstname":"SEa","lastname":"Sober","mobile":"66952419415","priority":3,"email":"624259028@webmail.npru.ac.th","last_login":null},"wallet":{"credit":"4.00","balance":"0.00"}}}()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:08:54 --> Call to undefined function {"success":true,"code":200,"message":"OK","data":{"user":{"id":105493,"username":"seabeach","firstname":"SEa","lastname":"Sober","mobile":"66952419415","priority":3,"email":"624259028@webmail.npru.ac.th","last_login":null},"wallet":{"credit":"4.00","balance":"0.00"}}}()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->otp_check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:10:52 --> Call to undefined function {"success":true,"code":200,"message":"OK","data":{"user":{"id":105493,"username":"seabeach","firstname":"SEa","lastname":"Sober","mobile":"66952419415","priority":3,"email":"624259028@webmail.npru.ac.th","last_login":null},"wallet":{"credit":"4.00","balance":"0.00"}}}()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(41): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:17:41 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:17:42 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:17:42 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:17:43 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:17:43 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:17:43 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:17:50 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:17:51 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'success')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:17:51 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'success')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:17:52 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'success')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:17:52 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'success')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:17:52 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'success')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:17:52 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'success')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:17:52 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'success')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:17:53 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'success')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:05 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'success')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:05 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:06 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:06 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:06 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:06 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:06 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:06 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:07 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:07 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:07 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:07 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:08 --> App\Controllers\SMSController::respond(): Argument #2 ($status) must be of type ?int, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php on line 43
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(43): App\Controllers\SMSController->respond('{"success":true...', 'seuccess')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:18:14 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:18:15 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:18:15 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:18:15 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:18:16 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:18:16 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:18:16 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:19:47 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): view('admin/check_cre...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:19:47 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): view('admin/check_cre...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:19:48 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): view('admin/check_cre...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:19:48 --> syntax error, unexpected token ";", expecting identifier or variable or "{" or "$"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): view('admin/check_cre...', Array)
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:19:48 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:19:49 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:19:49 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:19:49 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:19:49 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\admin\check_credit.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 16)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): view('admin/check_cre...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 10:21:22 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:22 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:23 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:24 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:24 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:24 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:25 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:25 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:25 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:26 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:26 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:30 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:31 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:31 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:32 --> Attempt to read property "succeess" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:32 --> Attempt to read property "succeess" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:33 --> Attempt to read property "succeess" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:49 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:49 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:50 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:50 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:51 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:51 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:21:51 --> Attempt to read property "success" on string
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:22:09 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:22:09 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:22:10 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:22:10 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:22:10 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:22:10 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:22:10 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:22:11 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:22:11 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:22:11 --> Attempt to read property "success" on null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:34:30 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:30 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:30 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:31 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:31 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:31 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:31 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:32 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:32 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:52 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(47): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:53 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(47): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:34:54 --> Object of class CodeIgniter\HTTP\Response could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(47): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:37:22 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:37:22 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:37:23 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:37:23 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:37:23 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:37:23 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:37:23 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:37:24 --> syntax error, unexpected token ";", expecting "]"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers...')
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(790): class_exists('\\App\\Controller...', true)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->startController()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-27 10:37:34 --> Call to undefined function App\Controllers\ul()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:37:34 --> Call to undefined function App\Controllers\ul()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:37:35 --> Call to undefined function App\Controllers\ul()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:37:54 --> Call to undefined function App\Controllers\ul()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:37:55 --> Call to undefined function App\Controllers\ul()
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-27 10:39:01 --> Undefined variable $attributes
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(52): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 52)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:50:57 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:50:58 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:50:58 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:50:59 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:50:59 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:50:59 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:50:59 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:50:59 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:51:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:51:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:51:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:51:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:51:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:51:00 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:51:01 --> Object of class stdClass could not be converted to string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('admin/check_cre...', Array, true)
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(46): view('admin/check_cre...', Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-27 10:51:45 --> Undefined variable $curl_exec
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 10:51:46 --> Undefined variable $curl_exec
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\SMSController.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\SMSController->check_credit()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\SMSController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 11:59:59 --> CodeIgniter\BaseModel::replace(): Argument #1 ($data) must be of type ?array, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\NotificationController.php on line 23
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\NotificationController.php(23): CodeIgniter\BaseModel->replace('7', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\NotificationController->set_readAll()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 12:00:01 --> CodeIgniter\BaseModel::replace(): Argument #1 ($data) must be of type ?array, string given, called in C:\xampp\htdocs\Big_Project_Code4\app\Controllers\NotificationController.php on line 23
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\NotificationController.php(23): CodeIgniter\BaseModel->replace('7', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\NotificationController->set_readAll()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\NotificationController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 12:35:51 --> Undefined array key "ses_user_id"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\index.php(8): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(27): view('index', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-27 12:35:53 --> Undefined array key "ses_user_id"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\index.php(8): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(27): view('index', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-27 12:35:58 --> Undefined array key "ses_user_id"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\index.php(8): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(27): view('index', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-27 12:35:59 --> Undefined array key "ses_user_id"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\index.php(8): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(27): view('index', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-27 12:37:58 --> Undefined array key "ses_userid"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\components\navbar.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\index.php(8): require('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(27): view('index', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-27 20:59:38 --> Undefined variable $Reserve_ID
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\confirm_reservation.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 64)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('confirm_reserva...', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\ReservationController.php(110): view('confirm_reserva...', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\ReservationController->confirm_reservation()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-27 21:25:01 --> Undefined array key "Phone"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 181)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-27 21:35:40 --> Undefined array key "Phone"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(181): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 181)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

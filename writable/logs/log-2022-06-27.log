@@ -1,0 +1,8 @@
+ERROR - 2022-06-27 19:18:03 --> Unknown column 'Last_login' in 'field list'
+CRITICAL - 2022-06-27 19:18:03 --> Undefined array key "Pos_Name_TH"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(377): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 377)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->auth()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

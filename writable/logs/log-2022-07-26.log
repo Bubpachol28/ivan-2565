@@ -1,0 +1,1133 @@
+CRITICAL - 2022-07-26 17:05:24 --> require_once(C:\xampp\htdocs\Big_Project_Code4\app\Libraries/vebdor/autoload.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(766): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:...', 'C:\\xampp\\htdocs...', 766)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(766): require_once()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 17:05:41 --> require_once(C:\xampp\htdocs\Big_Project_Code4\app\Libraries/vebdor/autoload.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(766): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require_once(C:...', 'C:\\xampp\\htdocs...', 766)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(766): require_once()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 17:28:13 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(435): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 435)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:14 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:15 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:26 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:27 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:27 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:27 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:28 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:28 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:28 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:28 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:28:28 --> Undefined variable $fb_permission
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:31 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:31 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:32 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:32 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:32 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:32 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:33 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:33 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:33 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:33 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:33 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:33 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:29:33 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:37 --> Undefined variable $fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:38 --> Undefined variable $fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:38 --> Undefined variable $fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:38 --> Undefined variable $fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:39 --> Undefined variable $fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:40 --> Undefined variable $fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:40 --> Undefined variable $fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:41 --> Undefined variable $fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:41 --> Undefined variable $fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:45 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:46 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:46 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:46 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:47 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:47 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:47 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:47 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:48 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:48 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:48 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:48 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:48 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:49 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:49 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:49 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:49 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:49 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:30:50 --> Undefined property: App\Controllers\UserController::$fb_helper
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(436): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 436)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:31:25 --> Call to a member function getLoginUrl() on null
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 17:31:25 --> Call to a member function getLoginUrl() on null
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 17:31:26 --> Call to a member function getLoginUrl() on null
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 17:31:26 --> Call to a member function getLoginUrl() on null
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 17:31:26 --> Call to a member function getLoginUrl() on null
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 17:31:26 --> Call to a member function getLoginUrl() on null
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 17:31:26 --> Call to a member function getLoginUrl() on null
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->login()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 17:47:33 --> Undefined variable $data
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(796): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 796)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 17:57:41 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 200 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 200 \nvar...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 200 \r\nva...', '{"access_token"...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQB1AZaTmz2nJky...', 'http://localhos...')
+#9 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-26 17:59:03 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 400 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 400 \nvar...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 400 \r\nva...', '{"error":{"mess...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQB1AZaTmz2nJky...', 'http://localhos...')
+#9 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-26 18:01:23 --> Cross-site request forgery validation failed. Required param "state" missing.
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 18:01:24 --> Cross-site request forgery validation failed. Required param "state" missing.
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(221): Facebook\Helpers\FacebookRedirectLoginHelper->validateCsrf()
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-07-26 18:03:52 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 400 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 400 \nvar...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 400 \r\nva...', '{"error":{"mess...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQB1AZaTmz2nJky...', 'http://localhos...')
+#9 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-26 18:03:53 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 400 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 400 \nvar...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 400 \r\nva...', '{"error":{"mess...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQB1AZaTmz2nJky...', 'http://localhos...')
+#9 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-26 18:03:54 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 400 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 400 \nvar...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 400 \r\nva...', '{"error":{"mess...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQB1AZaTmz2nJky...', 'http://localhos...')
+#9 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-26 18:04:12 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 400 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 400 \nvar...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 400 \r\nva...', '{"error":{"mess...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQB1AZaTmz2nJky...', 'http://localhos...')
+#9 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-26 18:04:12 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 400 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 400 \nvar...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 400 \r\nva...', '{"error":{"mess...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQB1AZaTmz2nJky...', 'http://localhos...')
+#9 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-26 18:04:13 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 400 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 400 \nvar...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 400 \r\nva...', '{"error":{"mess...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQB1AZaTmz2nJky...', 'http://localhos...')
+#9 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-26 18:04:42 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 200 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 200 \nvar...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 200 \r\nva...', '{"access_token"...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQDH-pNKbGt1TbI...', 'http://localhos...')
+#9 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-26 18:15:54 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 200 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 200 \nvar...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 200 \r\nva...', '{"access_token"...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQAIuIo3P1pJ6SB...', 'http://localhos...')
+#9 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#12 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#13 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#14 {main}
+CRITICAL - 2022-07-26 18:17:10 --> This authorization code has been used.
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQAIuIo3P1pJ6SB...', 'http://localhos...')
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-07-26 18:17:11 --> This authorization code has been used.
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQAIuIo3P1pJ6SB...', 'http://localhos...')
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-07-26 18:17:12 --> This authorization code has been used.
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookResponse.php(210): Facebook\Exceptions\FacebookResponseException::create(Object(Facebook\FacebookResponse))
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookResponse.php(255): Facebook\FacebookResponse->makeException()
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookResponse.php(82): Facebook\FacebookResponse->decodeBody()
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(224): Facebook\FacebookResponse->__construct(Object(Facebook\FacebookRequest), '{"error":{"mess...', 400, Array)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(277): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(226): Facebook\Authentication\OAuth2Client->sendRequestWithClientParams('/oauth/access_t...', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Authentication\OAuth2Client.php(166): Facebook\Authentication\OAuth2Client->requestAnAccessToken(Array)
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Helpers\FacebookRedirectLoginHelper.php(227): Facebook\Authentication\OAuth2Client->getAccessTokenFromCode('AQAIuIo3P1pJ6SB...', 'http://localhos...')
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(783): Facebook\Helpers\FacebookRedirectLoginHelper->getAccessToken()
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-07-26 18:17:15 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:17:56 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:17:56 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:17:56 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:17:57 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:17:58 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:17:58 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:00 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:00 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:00 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:01 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:01 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:02 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:02 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:02 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:03 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:03 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:04 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:04 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:10 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:10 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:11 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:12 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:13 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:13 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:13 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:13 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:14 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:14 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:14 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:14 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:14 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:14 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:15 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:15 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:15 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:15 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:15 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:17 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:29 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:29 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:29 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:29 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:30 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:30 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:30 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:30 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:30 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:30 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:31 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:31 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:18:38 --> Undefined property: App\Controllers\UserController::$facebook
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 787)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-26 18:19:09 --> Object of type Facebook\Facebook is not callable
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 18:19:10 --> Object of type Facebook\Facebook is not callable
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 18:19:10 --> Object of type Facebook\Facebook is not callable
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 18:19:11 --> Object of type Facebook\Facebook is not callable
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 18:19:11 --> Object of type Facebook\Facebook is not callable
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 18:19:11 --> Object of type Facebook\Facebook is not callable
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 18:19:12 --> Object of type Facebook\Facebook is not callable
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-07-26 18:19:27 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 200 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 200 \neta...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 200 \r\net...', '{"name":"Saran ...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v14.0')
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): Facebook\Facebook->get('/me?fields=name...', Object(Facebook\Authentication\AccessToken))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-26 18:19:27 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 200 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 200 \neta...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 200 \r\net...', '{"name":"Saran ...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v14.0')
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): Facebook\Facebook->get('/me?fields=name...', Object(Facebook\Authentication\AccessToken))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-26 18:19:29 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 200 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 200 \neta...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 200 \r\net...', '{"name":"Saran ...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v14.0')
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): Facebook\Facebook->get('/me?fields=name...', Object(Facebook\Authentication\AccessToken))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-26 18:19:30 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 200 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 200 \neta...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 200 \r\net...', '{"name":"Saran ...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v14.0')
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): Facebook\Facebook->get('/me?fields=name...', Object(Facebook\Authentication\AccessToken))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-07-26 18:21:19 --> Undefined array key 1
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(108): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 108)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(130): Facebook\Http\GraphRawResponse->setHttpResponseCodeFromHeader('HTTP/2 200 ')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Http\GraphRawResponse.php(64): Facebook\Http\GraphRawResponse->setHeadersFromString('HTTP/2 200 \neta...')
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\HttpClients\FacebookCurlHttpClient.php(91): Facebook\Http\GraphRawResponse->__construct('HTTP/2 200 \r\net...', '{"name":"Saran ...')
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\FacebookClient.php(216): Facebook\HttpClients\FacebookCurlHttpClient->send('https://graph.f...', 'GET', '', Array, 60)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Facebook.php(469): Facebook\FacebookClient->sendRequest(Object(Facebook\FacebookRequest))
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Libraries\vendor\facebook\graph-sdk\src\Facebook\Facebook.php(336): Facebook\Facebook->sendRequest('GET', '/me?fields=name...', Array, Object(Facebook\Authentication\AccessToken), NULL, 'v14.0')
+#7 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(787): Facebook\Facebook->get('/me?fields=name...', Object(Facebook\Authentication\AccessToken))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->facebook_connect()
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#12 {main}

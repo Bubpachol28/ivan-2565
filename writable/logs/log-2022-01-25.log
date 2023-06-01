@@ -1,0 +1,200 @@
+ERROR - 2022-01-25 03:45:08 --> Table 'ivan.users' doesn't exist
+CRITICAL - 2022-01-25 03:45:08 --> Table 'ivan.users' doesn't exist
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('unknow@hotmail....', 'email', Array, NULL)
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'unknow@hotmail....', Array, Array)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Register.php(26): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#10 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-01-25 03:45:43 --> Table 'ivan.users' doesn't exist
+CRITICAL - 2022-01-25 03:45:43 --> Table 'ivan.users' doesn't exist
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('unknow@hotmail....', 'email', Array, NULL)
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'unknow@hotmail....', Array, Array)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Register.php(26): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#10 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+ERROR - 2022-01-25 03:46:56 --> Table 'ivan.users' doesn't exist
+CRITICAL - 2022-01-25 03:46:56 --> Table 'ivan.users' doesn't exist
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('unknow@hotmail....', 'email', Array, NULL)
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('email', 'email', 'unknow@hotmail....', Array, Array)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Register.php(26): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Register->save()
+#10 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Register))
+#11 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#14 {main}
+CRITICAL - 2022-01-25 03:56:08 --> Invalid file: login.php
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('login.php')
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Login.php(10): view('login')
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-25 03:57:44 --> require(navbar.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Views\login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(navbar....', 'C:\\xampp\\htdocs...', 26)
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Views\login.php(26): require()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('login', Array, true)
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Login.php(10): view('login')
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Login->index()
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-01-25 03:59:43 --> Class "App\Models\UserModel" not found
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+ERROR - 2022-01-25 04:05:29 --> Some variable did not contain a value.
+ERROR - 2022-01-25 04:06:08 --> Some variable did not contain a value.
+CRITICAL - 2022-01-25 04:07:22 --> Too few arguments to function log_message(), 1 passed in C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Login.php on line 35 and at least 2 expected
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Login.php(35): log_message('Some variable d...')
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-01-25 04:07:39 --> Some variable did not contain a value.
+ERROR - 2022-01-25 04:07:45 --> Some variable did not contain a value.
+CRITICAL - 2022-01-25 04:13:12 --> log_message(): Argument #3 ($context) must be of type array, string given, called in C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Login.php on line 35
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Login.php(35): log_message('info', 'logged into the...', '$2y$10$cbRJaFcc...')
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Login->auth()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Login))
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-01-25 04:23:17 --> Unmatched '}'
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Home.php(9): view('index')
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-25 04:25:13 --> Unmatched '}'
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Home.php(9): view('index')
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-25 04:25:13 --> Unmatched '}'
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Home.php(9): view('index')
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-25 04:25:13 --> Unmatched '}'
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Home.php(9): view('index')
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-25 04:25:14 --> Unmatched '}'
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Home.php(9): view('index')
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-25 04:25:41 --> Unmatched '}'
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Home.php(9): view('index')
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-25 04:25:47 --> Unmatched '}'
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Home.php(9): view('index')
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-25 04:25:47 --> Unmatched '}'
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Home.php(9): view('index')
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2022-01-25 04:25:48 --> Unmatched '}'
+#0 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#3 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\app\Controllers\Home.php(9): view('index')
+#4 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\Home->index()
+#5 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#6 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\Codeignater4\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

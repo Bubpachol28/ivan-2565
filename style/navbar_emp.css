@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit&display=swap');
+body {
+  font-family: 'Kanit', sans-serif;
+}
+.img-profile {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.navbartip {
+  position: absolute;
+  right: 0px;
+  padding-right:30px;
+}

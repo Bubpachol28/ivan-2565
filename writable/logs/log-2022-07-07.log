@@ -1,0 +1,21 @@
+CRITICAL - 2022-07-07 14:48:58 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/OTPController/...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/OTPController/...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-07 14:49:06 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/OTPController/...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/OTPController/...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-07-07 14:49:16 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('/OTPController/...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(719): CodeIgniter\Router\Router->handle('/OTPController/...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(361): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

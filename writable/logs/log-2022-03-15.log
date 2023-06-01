@@ -1,0 +1,1260 @@
+CRITICAL - 2022-03-15 14:56:27 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 14:57:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 14:57:04 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 14:57:18 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 114)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 14:58:35 --> syntax error, unexpected identifier "l", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 14:58:35 --> syntax error, unexpected identifier "l", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 14:58:37 --> syntax error, unexpected identifier "l", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 14:58:37 --> syntax error, unexpected identifier "l", expecting ";"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 14:58:51 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2022-03-15 15:10:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+CRITICAL - 2022-03-15 15:10:23 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '37', '2022-03-15')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-15 15:10:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+CRITICAL - 2022-03-15 15:10:39 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(27): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-15 15:11:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+CRITICAL - 2022-03-15 15:11:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-03-15 15:11:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+CRITICAL - 2022-03-15 15:11:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-03-15 15:11:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+CRITICAL - 2022-03-15 15:11:34 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+ERROR - 2022-03-15 15:11:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+CRITICAL - 2022-03-15 15:11:41 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near 'SELECT * FROM reservation INNER JOIN dock_car ON reservation.Dock_car_id = do...' at line 1
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SELECT *...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SELECT *...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SELECT *...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SELECT *...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(728): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(26): CodeIgniter\Model->__call('get', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '37', '2022-03-15')
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#11 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-03-15 15:24:19 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(111): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 111)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:24:29 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(114): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 114)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:37:00 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '37', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:37:01 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '37', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:37:01 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '37', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:37:09 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:37:48 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:37:48 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:37:48 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:37:49 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:38:55 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:38:56 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:38:56 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:38:56 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:38:56 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:38:57 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:38:58 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:38:58 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:38:59 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '43', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:39:06 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:42:13 --> syntax error, unexpected token "foreach"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 15:42:14 --> syntax error, unexpected token "foreach"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 15:42:14 --> syntax error, unexpected token "foreach"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 15:42:14 --> syntax error, unexpected token "foreach"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 15:42:30 --> Undefined variable $value
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:42:30 --> Undefined variable $value
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:42:30 --> Undefined variable $value
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:42:30 --> Undefined variable $value
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:42:31 --> Undefined variable $value
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:42:31 --> Undefined variable $value
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:42:40 --> Undefined variable $value
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:42:41 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:42:41 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:42:41 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:42:41 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:42:41 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:42:42 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:42:43 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:31 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:31 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:31 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:32 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:37 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:37 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:37 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:37 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:37 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:38 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:38 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:46 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:46 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:46 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:46 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:46 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:43:58 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:44:07 --> Cannot use object of type CodeIgniter\Database\MySQLi\Result as array
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2022-03-15 15:45:53 --> syntax error, unexpected token "->"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 15:45:53 --> syntax error, unexpected token "->"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 15:45:53 --> syntax error, unexpected token "->"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 15:45:54 --> syntax error, unexpected token "->"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 15:45:54 --> syntax error, unexpected token "->"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-03-15 15:46:07 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:46:08 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:46:08 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:47:23 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:47:24 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:47:24 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:47:24 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 34)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('7', '91', '2022-03-15')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:50:47 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:51:46 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:51:47 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:52:09 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:52:09 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:52:17 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:52:17 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:52:17 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:52:17 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:52:18 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:53:05 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:53:05 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:54:12 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:54:28 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:54:29 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:54:44 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:54:44 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:54:45 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:54:58 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:55:57 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:55:58 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:55:58 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:55:58 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:55:59 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:56:15 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:56:15 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:56:16 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:56:16 --> Undefined array key "van.Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:56:32 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:56:32 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:56:32 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:56:32 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:56:32 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:01 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:01 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:02 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:02 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:02 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:02 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:02 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:02 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:02 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:03 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:16 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:16 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:16 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:17 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2022-03-15 15:57:17 --> Undefined array key "Seats_Num"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(49): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 49)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2022-03-15 15:58:27 --> Unknown column '*reservation.Re_Seate' in 'field list'
+CRITICAL - 2022-03-15 15:58:27 --> Unknown column '*reservation.Re_Seate' in 'field list'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`*re...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`*re...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`*re...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`*re...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-15 15:58:28 --> Unknown column '*reservation.Re_Seate' in 'field list'
+CRITICAL - 2022-03-15 15:58:28 --> Unknown column '*reservation.Re_Seate' in 'field list'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`*re...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`*re...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`*re...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`*re...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-15 15:58:28 --> Unknown column '*reservation.Re_Seate' in 'field list'
+CRITICAL - 2022-03-15 15:58:28 --> Unknown column '*reservation.Re_Seate' in 'field list'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`*re...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`*re...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`*re...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`*re...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+ERROR - 2022-03-15 15:58:28 --> Unknown column '*reservation.Re_Seate' in 'field list'
+CRITICAL - 2022-03-15 15:58:28 --> Unknown column '*reservation.Re_Seate' in 'field list'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT SUM(`*re...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT SUM(`*re...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT SUM(`*re...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT SUM(`*re...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\ReservationModel.php(46): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(113): App\Models\ReservationModel->checkBeforeReservation('1', '1', '2022-02-23')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#11 {main}
+CRITICAL - 2022-03-15 15:58:42 --> syntax error, unexpected token "*"
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile('C:\\xampp\\htdocs...')
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Autoloader\Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Models\\Rese...')
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(112): CodeIgniter\Autoloader\Autoloader->loadClass('App\\Models\\Rese...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->reservation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\Big_Project_Code4\public\index.php(47): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

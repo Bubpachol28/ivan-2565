@@ -1,0 +1,195 @@
+ERROR - 2022-05-25 14:55:40 --> Cannot add or update a child row: a foreign key constraint fails (`usr6242590_ivan`.`complaint`, CONSTRAINT `fk_complaint_com_type_id` FOREIGN KEY (`Com_Type_ID`) REFERENCES `complaint_type` (`Com_Type_ID`) ON DELETE CASCADE)
+CRITICAL - 2022-05-25 14:55:40 --> Cannot add or update a child row: a foreign key constraint fails (`usr6242590_ivan`.`complaint`, CONSTRAINT `fk_complaint_com_type_id` FOREIGN KEY (`Com_Type_ID`) REFERENCES `complaint_type` (`Com_Type_ID`) ON DELETE CASCADE)
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Big_Project_Code4\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\ComplaintController.php(59): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\ComplaintController->add_report()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComplaintController))
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-25 14:56:01 --> Cannot add or update a child row: a foreign key constraint fails (`usr6242590_ivan`.`complaint`, CONSTRAINT `fk_complaint_com_type_id` FOREIGN KEY (`Com_Type_ID`) REFERENCES `complaint_type` (`Com_Type_ID`) ON DELETE CASCADE)
+CRITICAL - 2022-05-25 14:56:01 --> Cannot add or update a child row: a foreign key constraint fails (`usr6242590_ivan`.`complaint`, CONSTRAINT `fk_complaint_com_type_id` FOREIGN KEY (`Com_Type_ID`) REFERENCES `complaint_type` (`Com_Type_ID`) ON DELETE CASCADE)
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `co...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `co...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `co...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `co...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\Big_Project_Code4\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\ComplaintController.php(59): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\ComplaintController->add_report()
+#10 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ComplaintController))
+#11 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2022-05-25 18:02:57 --> Column 'Pay_ID' in where clause is ambiguous
+CRITICAL - 2022-05-25 18:02:57 --> Column 'Pay_ID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `Station...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Station...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Station...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `Station...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\TicketModel.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(180): App\Models\TicketModel->getTicketDataByPayId('5')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-25 18:08:27 --> Column 'Pay_ID' in where clause is ambiguous
+CRITICAL - 2022-05-25 18:08:27 --> Column 'Pay_ID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `Station...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Station...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Station...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `Station...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\TicketModel.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(181): App\Models\TicketModel->getTicketDataByPayId('5')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-25 18:09:37 --> Column 'Pay_ID' in where clause is ambiguous
+CRITICAL - 2022-05-25 18:09:37 --> Column 'Pay_ID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `Station...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Station...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Station...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `Station...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\TicketModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(181): App\Models\TicketModel->getTicketDataByPayId('5')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-25 18:11:09 --> Column 'Pay_ID' in where clause is ambiguous
+CRITICAL - 2022-05-25 18:11:09 --> Column 'Pay_ID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `Station...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `Station...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `Station...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT `Station...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\TicketModel.php(98): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(181): App\Models\TicketModel->getTicketDataByPayId('5')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-25 18:11:33 --> Column 'Pay_ID' in where clause is ambiguous
+CRITICAL - 2022-05-25 18:11:33 --> Column 'Pay_ID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\TicketModel.php(97): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(181): App\Models\TicketModel->getTicketDataByPayId('5')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-25 18:12:15 --> Column 'Pay_ID' in where clause is ambiguous
+CRITICAL - 2022-05-25 18:12:15 --> Column 'Pay_ID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\TicketModel.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(181): App\Models\TicketModel->getTicketDataByPayId('5')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-05-25 18:14:42 --> Unknown column 'paymemt.Pay_ID' in 'order clause'
+CRITICAL - 2022-05-25 18:14:42 --> Unknown column 'paymemt.Pay_ID' in 'order clause'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\PaymentModel.php(189): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(181): App\Models\PaymentModel->getTicketDataByPayId('5')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-25 18:15:02 --> Undefined array key "Tick_Code"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(185): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 185)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-05-25 18:16:24 --> Column 'Pay_ID' in where clause is ambiguous
+CRITICAL - 2022-05-25 18:16:24 --> Column 'Pay_ID' in where clause is ambiguous
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\Big_Project_Code4\app\Models\TicketModel.php(96): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(181): App\Models\TicketModel->getTicketDataByPayId('5')
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-25 18:17:42 --> Undefined variable $start
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(190): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 190)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 18:18:05 --> Class "App\Models\DateTime" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 18:22:57 --> Class "App\Models\DateTime" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 18:25:32 --> Class "App\Models\DateTime" not found
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 18:31:05 --> Undefined variable $time_to_send
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(191): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 191)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 18:31:14 --> Cannot access offset of type string on string
+#0 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->createTicket()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-25 18:33:18 --> Undefined array key "Station_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->booking_details()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-25 18:33:21 --> Undefined array key "Station_Name"
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 33)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->booking_details()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}

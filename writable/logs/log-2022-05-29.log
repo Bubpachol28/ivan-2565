@@ -1,0 +1,445 @@
+ERROR - 2022-05-29 16:03:19 --> Error connecting to the database: Unknown database 'usr6242590_ivan'
+CRITICAL - 2022-05-29 16:03:19 --> Unable to connect to the database.
+Main connection [MySQLi]: Unknown database 'usr6242590_ivan'
+#0 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\Big_Project_Code4\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\Big_Project_Code4\app\Models\StationModel.php(17): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\UserController.php(22): App\Models\StationModel->getStation()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#5 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-29 16:11:28 --> require(components/navbar.php): Failed to open stream: No such file or directory
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Views\his_reservation.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'require(compone...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\Big_Project_Code4\app\Views\his_reservation.php(8): require()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\Big_Project_Code4\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\Big_Project_Code4\system\Common.php(1089): CodeIgniter\View\View->render('his_reservation', Array, true)
+#5 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\TicketController.php(135): view('his_reservation', Array)
+#6 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\TicketController->his_reservation()
+#7 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\TicketController))
+#8 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-29 18:46:24 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:46:36 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:46:37 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:46:37 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:46:37 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:46:37 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:46:37 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:46:37 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:46:38 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:46:45 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:46:45 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(27): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:30 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:31 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:31 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:31 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:31 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:31 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:32 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:32 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:32 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:32 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:32 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 18:47:33 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 19:04:08 --> Undefined variable $model_notification_comp
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\components\user_connect.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\ReservationController.php(26): require_once('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\ReservationController->reservation()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ReservationController))
+#4 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-29 19:04:24 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(28): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 19:04:51 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(23): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 19:04:51 --> Class "NotificationModel" not found
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(23): require_once()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-29 19:19:39 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:28 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:29 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:30 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:30 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:30 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:30 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:30 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:30 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:30 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:31 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:31 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:31 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:31 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:31 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:20:31 --> Call to a member function links() on null
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:22:33 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:22:33 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:22:34 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:22:34 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-29 19:22:34 --> Cannot use object of type mysqli as array
+#0 C:\xampp\htdocs\Big_Project_Code4_11\app\Views\index.php(8): require()
+#1 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\Big_Project_Code4_11\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\Big_Project_Code4_11\system\Common.php(1089): CodeIgniter\View\View->render('index', Array, true)
+#4 C:\xampp\htdocs\Big_Project_Code4_11\app\Controllers\UserController.php(24): view('index', Array)
+#5 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(825): App\Controllers\UserController->index()
+#6 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\UserController))
+#7 C:\xampp\htdocs\Big_Project_Code4_11\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\Big_Project_Code4_11\index.php(48): CodeIgniter\CodeIgniter->run()
+#9 {main}

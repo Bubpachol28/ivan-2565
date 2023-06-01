@@ -1,0 +1,63 @@
+CRITICAL - 2022-05-11 10:02:28 --> Call to undefined method App\Models\PaymentModel::viewPaymentAll_success
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(80): CodeIgniter\Model->__call('viewPaymentAll_...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 10:04:25 --> Call to undefined method App\Models\PaymentModel::viewPaymentAll_success
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(82): CodeIgniter\Model->__call('viewPaymentAll_...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 10:04:25 --> Call to undefined method App\Models\PaymentModel::viewPaymentAll_success
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(82): CodeIgniter\Model->__call('viewPaymentAll_...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 10:04:26 --> Call to undefined method App\Models\PaymentModel::viewPaymentAll_success
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(82): CodeIgniter\Model->__call('viewPaymentAll_...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 10:04:26 --> Call to undefined method App\Models\PaymentModel::viewPaymentAll_success
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(82): CodeIgniter\Model->__call('viewPaymentAll_...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 10:04:27 --> Call to undefined method App\Models\PaymentModel::viewPaymentAll_success
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(82): CodeIgniter\Model->__call('viewPaymentAll_...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 10:04:28 --> Call to undefined method App\Models\PaymentModel::viewPaymentAll_success
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(82): CodeIgniter\Model->__call('viewPaymentAll_...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 10:04:28 --> Call to undefined method App\Models\PaymentModel::viewPaymentAll_success
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(82): CodeIgniter\Model->__call('viewPaymentAll_...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 10:04:38 --> Call to undefined method App\Models\PaymentModel::viewPaymentAll_success
+#0 C:\xampp\htdocs\Big_Project_Code4\app\Controllers\PdfController.php(82): CodeIgniter\Model->__call('viewPaymentAll_...', Array)
+#1 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(825): App\Controllers\PdfController->view_pdf()
+#2 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(412): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\PdfController))
+#3 C:\xampp\htdocs\Big_Project_Code4\system\CodeIgniter.php(320): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\Big_Project_Code4\index.php(48): CodeIgniter\CodeIgniter->run()
+#5 {main}
